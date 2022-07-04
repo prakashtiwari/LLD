@@ -12,6 +12,7 @@ namespace DesignPatterns.Behavioural.Observer.Event
     {
         public int ArtistId { get; set; }
         public int Amount { get; set; }
+
         public TicketChange(int artist, int amount)
         {
             ArtistId = artist;

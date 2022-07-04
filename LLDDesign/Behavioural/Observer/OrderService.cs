@@ -11,6 +11,7 @@ namespace DesignPatterns.Behavioural.Observer
         {
             var eventData = new Event.TicketChange(10, 12);
             Console.WriteLine($"Order is placed: ArtistId{eventData.ArtistId} Price:{eventData.Amount}");
+            ////
             Notify(eventData);        
         
         }
